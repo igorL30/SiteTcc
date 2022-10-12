@@ -1,0 +1,77 @@
+body{
+    background: whitesmoke;
+}
+
+.nav-bar{
+background: white;
+border: 1px solid black;
+opacity: 0.5;
+width: 100%;
+height: 75px;
+}
+
+#nav-bar{
+    background: white;
+    width: 100%;
+    height: 50px;
+    box-shadow: 8px 8px 8px gray;
+}
+.nav-bar:hover{
+    transition: 1s;
+    opacity: 1.0;
+}
+
+p{
+    word-spacing: 8rem;
+    position: absolute;
+    left: 35rem;
+}
+#txt{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#txt:hover{
+    transition: 1s;
+    color: orange;
+}
+
+
+
+
+#li1,#li2,#li3{
+    width: 250px;
+    height: 250px;
+    background: white;
+    position: absolute;
+    box-shadow: 8px 8px 8px rgb(180, 180, 180);
+    top: 15rem;
+    left: 15rem;
+}
+#li2{
+    position: absolute;
+    left: 35rem;
+
+}
+#li3{
+    position: absolute;
+    left:60rem;
+}
+
+
+.footer{
+background: white;
+width: 100%;
+height: 125px;
+border: 1px solid black;
+position: absolute;
+top: 900px;
+}
+#footer{
+    background: white;
+    width: 100%;
+    height: 125px;
+    position: absolute;
+    top: 126px;
+}
